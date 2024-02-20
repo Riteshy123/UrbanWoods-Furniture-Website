@@ -17,7 +17,7 @@ const Contact = () => {
                                 <ul className=" mt-4 text-left list-none py-4">
                                      <li className='py-2'><FiMapPin className="inline-block mr-2 text-black " />: Gurgaon, Furniture Market SPR Road near M3M Sector 71 Gurgoan</li>
                                      <li className='py-2'><FiPhone className="inline-block mr-2 text-black " />: +91 9161742417 : 9670142221 : 9899970493</li>
-                                     <li className='py-2'><FiMail className="inline-block mr-2 text-black " />: urbanwoods9@gmail.com</li>
+                                     <li className='py-2'><FiMail className="inline-block mr-2 text-black " />: <a href="mailto:urbanwoods9@gmail.com">urbanwoods9@gmail.com</a></li>
                                 </ul>
                             </p>
                         
@@ -69,7 +69,7 @@ const Contact = () => {
                                 <ul className=" mt-4 text-left list-none py-4">
                                      <li className='py-2'><FiMapPin className="inline-block mr-2 text-black " />: Opp. Mega County, Near DIT College, Mussorrie Road, Dehradun</li>
                                      <li className='py-2'><FiPhone className="inline-block mr-2 text-black " />: +91 9161742417 : 9670142221 : 9899970493</li>
-                                     <li className='py-2'><FiMail className="inline-block mr-2 text-black " />: urbanwoods9@gmail.com</li>
+                                     <li className='py-2'><FiMail className="inline-block mr-2 text-black " />: <a href="mailto:urbanwoods9@gmail.com">urbanwoods9@gmail.com</a> </li>
                                 </ul>
                             </p>
                         
