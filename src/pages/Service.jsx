@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import HeaderNavbar from '../components/HeaderNavbar';
-import Products from '../components/Products';
 import Homefurniture from '../components/Homefurniture';
 import Officefurniture from '../components/Officefurniture';
 import Outdoorfurniture from '../components/Outdoorfurniture';
@@ -41,7 +40,7 @@ const ServiceSection = () => {
           }`}
           onClick={() => handleItemClick('sofa')}
         >
-          Outdoor Furniture
+          Outdoor & Garden 
         </button>
       </div>
       {selectedItem && (

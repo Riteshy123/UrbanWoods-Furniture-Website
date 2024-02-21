@@ -54,7 +54,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-6 text-center text-gray-500 text-sm mr-30">
-          <p>&copy; 2024 Urban Woods. All rights reserved.</p>
+          <p>&copy; 2024 UrbanWoods Furniture and Interior. All rights reserved.</p>
         </div>
         <div className={`${showScroll ? 'block' : 'hidden'} fixed bottom-10 ml-5 right-10 bg-dark p-3 rounded-full shadow-lg cursor-pointer transition duration-500 ease-in-out`} onClick={scrollTop}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-light-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">

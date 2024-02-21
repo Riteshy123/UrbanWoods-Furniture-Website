@@ -72,8 +72,8 @@ const Outdoorfurniture = () => {
     <section className="py-12 bg-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl"> Our Outdoor Furniture Products</h2>
-          <p className="mt-4 text-lg text-gray-600">Browse through our collection of high-quality outdoor furniture</p>
+          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl"> Our Outdoor and Garden Furniture Products</h2>
+          <p className="mt-4 text-lg text-gray-600">Browse through our collection of high-quality outdoor and garden furniture</p>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {products.map(product => (

@@ -14,7 +14,7 @@ const HeaderNavbar = () => {
     <nav className="bg-dark p-2 sticky top-0 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
-          <p className="text-white text-lg font-semibold ml-2">Urban Woods &nbsp;<FontAwesomeIcon icon={faCouch} className="text-white mr-2" size="lg" /><br/> <small>furniture and Interior Work</small></p>
+          <p className="text-white text-lg font-semibold ml-2">UrbanWoods &nbsp;<FontAwesomeIcon icon={faCouch} className="text-white mr-2" size="lg" /><br/> <small>furniture and Interior </small></p>
         </div>
       
         <div className="flex items-center">

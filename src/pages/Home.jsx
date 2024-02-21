@@ -6,6 +6,7 @@ import Choice from '../components/Choice'
 import BannerPage from '../components/BannerPage'
 import NewItems from '../components/NewItems'
 import Lightfooter from '../components/Lightfooter';
+import Enquiry from '../components/Enquiry'
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
     <>
     <HeaderNavbar />
     <BannerPage />
+    <Enquiry />
     <Hero />
     <NewItems />
     <Choice />
