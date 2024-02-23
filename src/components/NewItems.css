@@ -23,3 +23,25 @@
     object-fit: cover;
   }
   
+  /* NewItems.css */
+
+/* Add hover effect to images */
+.mySwiper .swiper-slide img {
+  transition: transform 0.3s ease;
+}
+
+.mySwiper .swiper-slide img:hover {
+  transform: scale(1.05);
+}
+
+/* Add bottom label to images */
+.swiper-slide-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

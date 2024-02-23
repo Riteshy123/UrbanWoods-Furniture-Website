@@ -3,7 +3,7 @@ import './Enquiry.css';
 
 const Enquiry = () => {
   return (
-    <div className="bg-gray-200 py-10">
+    <div className="bg-gray-200 py-8">
       <div className="bg-white p-4 overflow-hidden rounded-full container">
         <div className="marquee ">
           <p className="text-lg font-bold">
