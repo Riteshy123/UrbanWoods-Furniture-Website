@@ -34,28 +34,34 @@ export default function BannerPage() {
         className="mySwiper"
       >
 
-        <SwiperSlide style={{ backgroundImage: "url('sofa.avif')", height: "550px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+        <SwiperSlide style={{ backgroundImage: "url('bannersofa.avif')", height: "500px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
          <div className="text-center ">
            <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300" onClick={handleShopNowClick}>Shop Now</button>
          </div>
       
         </SwiperSlide>
        
-        <SwiperSlide style={{ backgroundImage: "url('homefurni2.avif')", height: "550px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+        <SwiperSlide style={{ backgroundImage:"url('banneroffice3.avif')", height: "500px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
         <div className="text-center ">
            <h1 className="text-5xl font-bold mb-4 "></h1>
            <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300" onClick={handleShopNowClick}>Shop Now</button>
          </div>
         </SwiperSlide>
 
-        <SwiperSlide style={{ backgroundImage: "url('office.avif')", height: "550px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+        <SwiperSlide style={{ backgroundImage: "url('BannerInterior.avif')", height: "500px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
         <div className="text-center ">
            <h1 className="text-5xl font-bold mb-4"></h1>
            <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300" onClick={handleShopNowClick}>Shop Now</button>
          </div>
         </SwiperSlide>
 
-        <SwiperSlide style={{ backgroundImage: "url('outdoor.avif')", height: "550px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+        <SwiperSlide style={{ backgroundImage: "url('banneroutdoor.jpg')", height: "500px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
+        <div className="text-center ">
+           <h1 className="text-5xl font-bold mb-4 text-black"></h1>
+           <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300" onClick={handleShopNowClick}>Shop Now</button>
+         </div>
+        </SwiperSlide>
+        <SwiperSlide style={{ backgroundImage: "url('bannersofa2.avif')", height: "500px", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center" }}>
         <div className="text-center ">
            <h1 className="text-5xl font-bold mb-4 text-black"></h1>
            <button className="bg-white text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition duration-300" onClick={handleShopNowClick}>Shop Now</button>

@@ -1,0 +1,18 @@
+.open {
+    display: block;
+    transition: max-height 0.3s ease-in-out, font-size 0.3s ease-in-out; /* Add font-size transition */
+    max-height: 2000px; /* Set a maximum height that is greater than your menu height */
+    
+  }
+  
+  .closed {
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .rotate {
+    transform: rotate(180deg); /* Rotate the toggle button */
+    transition: transform 0.3s ease-in-out; /* Add rotation transition */
+  }
+  

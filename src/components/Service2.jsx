@@ -20,7 +20,7 @@ const Service2 = () => {
             <p className="text-gray-600">Enjoy quick and reliable delivery services for all your furniture purchases.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg transition duration-300 transform hover:scale-105 hover:bg-yellow-200">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">Inservice Quality Guarantee</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-2"> Quality</h3>
             <p className="text-gray-600">Offer Quality warranty and guarantee</p>
           </div>
         </div>

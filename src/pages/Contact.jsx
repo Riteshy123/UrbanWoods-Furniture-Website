@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <>
             <HeaderNavbar />
-            <div className="bg-light-900 text-white py-20">
+            <div className="bg-light-900 text-white py-20" style={{backgroundImage: "url('Contact.avif')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}>
                 <div className="container mx-auto px-4" >
                     <div className="flex flex-col lg:flex-row items-center justify-between" >
 
@@ -44,7 +44,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="bg-light-900 text-white py-20">
+            <div className="bg-light-900 text-white py-20" style={{backgroundImage: "url('Contact.avif')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat"}}>
                 <div className="container mx-auto px-4">
                     <div className="flex flex-col lg:flex-row items-center justify-between">
 

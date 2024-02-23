@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import HeaderNavbar from '../components/HeaderNavbar';
-import Homefurniture from '../components/Homefurniture';
-import Officefurniture from '../components/Officefurniture';
-import Outdoorfurniture from '../components/Outdoorfurniture';
+import Homefurniture from './Homefurniture';
+import Officefurniture from './Officefurniture';
+import Outdoorfurniture from './Outdoorfurniture';
 import Service2 from '../components/Service2';
 
 const ServiceSection = () => {

@@ -44,16 +44,16 @@ const NewItems = () => {
           }}
           className="mySwiper"
         >
-          <SwiperSlide><img src='/table2.avif' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/NewSofa.avif' className='rounded-lg'/></SwiperSlide>
           <SwiperSlide><img src='/light.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/cupboard.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/hangingchair.jpeg'className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/greensofa.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/chair4.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/bed.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/table.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/Armchair.avif' className='rounded-lg'/></SwiperSlide>
-          <SwiperSlide><img src='/woodchair.avif' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/newalmari.avif' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/gardenlounger.jpg'className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/newottoman.jpg' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/newchair.jpg' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/newbed.jpg' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/shelves.jpg' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/newSofa.jpg' className='rounded-lg'/></SwiperSlide>
+          <SwiperSlide><img src='/newoffice.jpg' className='rounded-lg'/></SwiperSlide>
         </Swiper>
       </div>
     </div>

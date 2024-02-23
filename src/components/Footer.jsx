@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { FaFacebook, FaInstagram, FaLinkedin, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 function Footer() {
   const [showScroll, setShowScroll] = useState(false);
@@ -37,7 +38,7 @@ function Footer() {
                 Facebook
               </a>
               <a href="https://whatsapp.com/channel/0029VaDHm0kBadmfRWlq4X2w" className="flex items-center text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
-                <FaLinkedin className="mr-2" />
+                <AiOutlineWhatsApp className="mr-2" />
                 Whatsapp
               </a>
               <a href="https://www.instagram.com/urbanwood_furnitur?igsh=MWRpdzhvOHRld3lzbQ==" className="flex items-center text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
@@ -54,7 +55,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-6 text-center text-gray-500 text-sm mr-30">
-          <p>&copy; 2024 UrbanWoods Furniture and Interior. All rights reserved.</p>
+          <p>&copy; 2024 UrbanWoods Furniture and Interior Works. All rights reserved.</p>
         </div>
         <div className={`${showScroll ? 'block' : 'hidden'} fixed bottom-10 ml-5 right-10 bg-dark p-3 rounded-full shadow-lg cursor-pointer transition duration-500 ease-in-out`} onClick={scrollTop}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-light-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
